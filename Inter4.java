@@ -15,9 +15,9 @@ public class Inter4 {
             m = in.nextInt();
             if(m > 500000) System.exit(0);
             ans = (4*m)/9;
-            ans = (ans/(4/3)*Math.PI);
+            ans = ((ans/(4/3*Math.PI)));
             ans = Math.cbrt(ans);
-            ans = ans*4/2;
+            ans = ((ans*4+(ans/4)*2));
             int a = (int) ans;
             store.add(a);
         }
