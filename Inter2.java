@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Dexter Dela Rosa
+ * @author Cemody
  */
 public class Number2 {
 
