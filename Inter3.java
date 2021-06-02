@@ -1,23 +1,23 @@
 package progcompe;
 
+import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Stack;
 
 public class Inter3 {
+
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int num = in.nextInt();
+        String num = in.next();
         storeArray(num);
-        
     }
-    public static void storeArray(int num){
-            Stack<Integer> sta = new Stack<>();
-            int q;
-            while(num!=0){
-                q=num%10;
-                num=num/10;
-                sta.push(q);
-            }
-            System.out.println(sta);
+
+    public static void storeArray(String num) {
+        ArrayList<Integer> sta = new ArrayList<>();
+        int q;
+        for (int i = 0; i < num.length(); i++) {
+            q = Integer.parseInt(num.substring(i, i+1));
+            sta.add(q);
         }
+        System.out.println(sta);
+    }
 }
