@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 /**
  *
- * @author
+ * @author Cemody
  */
 public class Inter1 {
     public static void main(String[] args) {
